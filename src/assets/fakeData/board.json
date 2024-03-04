@@ -1,0 +1,52 @@
+{
+    "boards": [
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/du-thuyen-heritage-binh-chuan-cat-ba/thumbnail/no53ab0y526yl825.webp",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du thuyền Heritage Bình Chuẩn Cát Bà",
+            "description": "Hạ thủy 2019 - Tàu vỏ kim loại - 20 phòng",
+            "priceBoard": "3,500,000đ / khách"
+        },
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/stellar-of-the-seas-cruise/thumbnail/9gg221zrdahd9rj5.jpg",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du Thuyền Stellar of the Seas",
+            "description": "Hạ thuỷ 2018 - Tàu vỏ Kim loại - 22 phòng",
+            "priceBoard": "5,250,000đ / khách"
+        },
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/president-cruises-halong/thumbnail/a61tx4fxs16kq3cz.webp",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du thuyền Ambassador Hạ Long",
+            "description": "Hạ thuỷ 2018 - Tàu vỏ Kim loại - 46 phòng",
+            "priceBoard": "3,550,000đ / khách"
+        },
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/du-thuyen-scarlet pearl1/thumbnail/rui1c4wxspqy26cw.webp",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du thuyền Scarlet Pearl",
+            "description": "Hạ thuỷ 2019 - Tàu vỏ Kim loại - 22 phòng",
+            "priceBoard": "3,600,000đ / khách"
+        },
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/du-thuyen-essencegrand/thumbnail/797egzzb3bs6yvm3.webp",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du thuyền Essence Grand",
+            "description": "Hạ thuỷ 2023 - Tàu vỏ Kim loại - []6 phòng",
+            "priceBoard": "4,450,000đ / khách"
+        },
+        {
+            "imageBoard": "https://minio.fares.vn/mixivivu-dev/tour/du-thuyen-catherine/thumbnail/k9bs9jgaeith80s0.webp",
+            "evaluate": [],
+            "placeBoard": "Vịnh Hạ Long",
+            "nameBoard": "Du thuyền Catherine",
+            "description": "Hạ thuỷ 2023 - Tàu vỏ Kim loại - 39 phòng",
+            "priceBoard": "5,000,000đ / khách"
+        }
+    ]
+}

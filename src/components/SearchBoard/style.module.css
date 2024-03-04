@@ -1,0 +1,26 @@
+.optionsGroup{
+    display: none;
+    width: 280px;
+    position: absolute;
+    margin-top: 10px;
+    padding-top: 10px;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: default;
+    overflow: hidden;
+}
+
+.selectOptions{
+    text-align: left;
+    padding: 12px 0 12px 20px;
+    cursor: pointer;
+    transition: all 150ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.selectOptions:hover{
+    background-color: #f9fafb;
+}

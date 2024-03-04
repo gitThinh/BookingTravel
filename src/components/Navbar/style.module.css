@@ -1,0 +1,21 @@
+.wrapperHeader{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0;
+    border-bottom: 1px solid #edeef2;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+
+.navLink{
+    display: flex;
+    align-items: center;
+    color: #101828;
+    font-weight: 500;
+}
+
+.navLink:hover{
+    color: #77DADA;
+}

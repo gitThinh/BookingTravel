@@ -1,0 +1,15 @@
+.boardGridBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 34px
+}
+
+.activeEvaluatedBtn{
+    background: #fff !important;
+}
+
+.gridPartner {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px;
+}
