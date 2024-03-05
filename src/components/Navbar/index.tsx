@@ -19,7 +19,7 @@ const index: React.FunctionComponent<IAppProps> = (props) => {
         <div className="w-full flex gap-14 h-full items-center">
           <Link to="/">
             <img
-              src="/src/assets/images/black-logo.webp"
+              src="/src/assets/images/black-logo.png"
               alt="logo"
               className="w-[156px] h-[42px]"
             />

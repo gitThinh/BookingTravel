@@ -11,7 +11,7 @@ const index: React.FunctionComponent<IAppProps> = (props) => {
         <div className="info-company">
           <div className="logo-company">
             <img
-              src="/src/assets/images/white-logo.webp"
+              src="/src/assets/images/white-logo.png"
               alt=""
               className="max-w-[220px]"
             />
