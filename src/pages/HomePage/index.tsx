@@ -8,7 +8,7 @@ import { HomeLayout, BoardLayout } from "@/constants/layout";
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
-  console.log(props);
+  console.log(props);  
   
   return (
     <div className="w-full min-h-[100vh]">

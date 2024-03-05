@@ -159,7 +159,7 @@ const index: React.FunctionComponent<IAppProps> = (props) => {
       </section>
       <section className="size-container">
         <div className="w-[500px] mx-auto text-center">
-          <p className="font-bold text-4xl mb-5">Các điểm đến của TravelWeb</p>
+          <p className="font-bold text-4xl mb-5 text-[#101828]">Các điểm đến của TravelWeb</p>
           <p className="text-[#5e6d84] text-lg font-semibold">
             Khám phá vẻ đẹp tuyệt vời của Du thuyền Hạ Long: Hành trình đến
             thiên đường thiên nhiên
