@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
+import handleEvaluatedStar from "@/utils/countEvaluatedStar";
+
 interface IAppProps {
   imageBoard: string;
   evaluate: number[];
@@ -12,18 +14,6 @@ interface IAppProps {
 }
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
-  //averaged evaluates
-  const handleEvaluatedStar = (): number => {
-    if (props.evaluate.length) {
-      let sumEvaluated: number = props.evaluate.reduce(
-        (value, num) => num + value
-      );
-      return sumEvaluated / props.evaluate.length;
-    }
-    return 5
-  };
-
-
   return (
     <Link to={`/board-${props.index}`} className="w-max block">
       <div className="w-96 rounded-xl shadow-md shadow-gray-400 p-5 text-[#444] flex flex-col gap-2">
@@ -35,7 +25,7 @@ const index: React.FunctionComponent<IAppProps> = (props) => {
           />
           <div className="absolute top-3 left-4 bg-[#fedf89] px-2 py-1 rounded-2xl text-[#a92a2a]">
             <p className="text-xs font-medium">
-              {handleEvaluatedStar() + ' '}
+              {handleEvaluatedStar(props.evaluate) + ' '}
               ({props.evaluate.length}) đánh giá
             </p>
           </div>

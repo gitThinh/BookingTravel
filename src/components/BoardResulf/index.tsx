@@ -1,6 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
+import handleEvaluatedStar from "@/utils/countEvaluatedStar";
+
 interface IAppProps {
   imageBoard: string;
   evaluate: number[];
@@ -19,7 +21,7 @@ const index: React.FunctionComponent<IAppProps> = (props) => {
         <div className="relative rounded-3xl overflow-hidden shadow-sm shadow-gray-500 min-w-[352px] min-h-[264px]">
           <img src={props.imageBoard} alt="" className=" h-[264px] w-[352px]" />
           <div className="absolute top-3 left-4 bg-[#fedf89] px-2 py-1 rounded-2xl text-[#a92a2a]">
-            <p className="text-xs font-medium">{props.evaluate} (0) đánh giá</p>
+            <p className="text-xs font-medium">{handleEvaluatedStar(props.evaluate)} ({props.evaluate.length}) đánh giá</p>
           </div>
         </div>
         <div className="flex-1">
