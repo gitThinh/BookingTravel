@@ -3,10 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { HomePage } from '@/constants/pages';
 
-interface IAppProps {
-}
 
-const index: React.FunctionComponent<IAppProps> = (props) => {
+const index: React.FunctionComponent = () => {
   return (
     <BrowserRouter>
         <Routes>
