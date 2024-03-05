@@ -22,6 +22,8 @@ interface evaluted {
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
+  console.log(props);
+  
   const [activeEvaluated, setActiveEvaluated] = React.useState(0);
 
   // set auto change evaluated

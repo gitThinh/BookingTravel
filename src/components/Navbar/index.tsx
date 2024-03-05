@@ -6,6 +6,8 @@ import style from "./style.module.css";
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
+  console.log(props);
+  
   return (
     <div className={style.wrapperHeader + " w-full h-24 z-10"}>
       <div

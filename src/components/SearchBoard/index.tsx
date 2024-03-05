@@ -5,6 +5,8 @@ import style from "./style.module.css";
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
+  console.log(props);
+  
   const locationRef = React.useRef<HTMLDivElement>(null);
   const locationOptionsRef = React.useRef<HTMLDivElement>(null);
   const priceRef = React.useRef<HTMLDivElement>(null);

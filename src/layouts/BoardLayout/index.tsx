@@ -8,6 +8,8 @@ import style from "./style.module.css";
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
+  console.log(props);
+  
 
   const getAllUtilities = (): string[] => {
     const utilities: string[] = [];

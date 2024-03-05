@@ -3,6 +3,8 @@ import * as React from "react";
 interface IAppProps {}
 
 const index: React.FunctionComponent<IAppProps> = (props) => {
+  console.log(props);
+  
   return (
     <footer>
       <div className="footer1 bg-[#101828] text-[#98a2b3] lg:px-[144px] py-12 flex flex-col md:flex-row justify-between">
